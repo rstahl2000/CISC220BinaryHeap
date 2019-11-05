@@ -1,8 +1,7 @@
 /*
  * BinHeap.hpp
  *
- *  Created on: Nov 4, 2019
- *      Author: robertstahl
+ *  Robert Stahl, Chris Tiso
  */
 
 #ifndef BINHEAP_HPP_

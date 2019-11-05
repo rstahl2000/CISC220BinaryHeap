@@ -1,8 +1,10 @@
 /*
- * main.cpp
+ * Binary Heap Hands On Exercise
+ * Robert Stahl, Chris Tiso
  *
- *  Created on: Nov 4, 2019
- *      Author: robertstahl
+ * TA: Sun Bilin
+ *
+ * 11/5/19
  */
 
 #include "BinHeap.hpp"
@@ -16,6 +18,8 @@ int main() {
 	string arr4[] = {"h","u","i","x","tun","na","c","n"};
 	BinHeap *h4 = new BinHeap(arr4,8);
 	//yep, it's a word!! Google it with the word ghost!
+
+	// Word is Xunantunich, an Ancient Mayan Archaeological Site
 	cout << "What does the above word mean (google it with the word 'ghost')?" << endl;
 	cout << "***************************************" << endl;
 	delete h4;
@@ -28,6 +32,7 @@ int main() {
 	h->deleteHeap();
 	h->printHeap();
 	cout << "What does the above word mean? (this is a good one!)" << endl;
+	// Word is samhainophobia: The fear of Halloween.
 	cout << "***************************************" << endl;
 	delete h;
 	/**************************************************/
@@ -37,6 +42,7 @@ int main() {
 	h2->deleteAll();
 	cout <<"\nAfter: (Notice what happened here!!!!!)";
 	h2->printHeap();
+	// The letters get alphabetized when ran.
 	cout << "**********************************"<<endl;
 	delete h2;
 	string arr3[] = {"l","ho","ko","ogic","ka","at","ag"};
@@ -45,6 +51,7 @@ int main() {
 	cout <<"\nAfter: deleteAll()";
 	h3->printHeap();
 	cout << "What does the above word mean?" << endl;
+	// Word is agathokakologic: Being composed of good and evil
 	cout << "**********************************"<<endl;
 	delete h3;
 	return 0;
